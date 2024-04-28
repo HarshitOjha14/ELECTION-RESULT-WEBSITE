@@ -1,0 +1,21 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 1px solid red;
+    display:flex ;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange ;
+    background-color: aqua;
+    transition: transform 3s cubic-bezier(0, 0.64, 1, 0.26) ;
+}
+.box:hover{
+  /*  background-color: brown;*/
+ /* transform:translateX(500px) ;*/
+ transform: translateX(501px) rotate(360deg);
+
+}

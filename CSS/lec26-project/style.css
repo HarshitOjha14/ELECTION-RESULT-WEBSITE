@@ -1,0 +1,115 @@
+#navlists{
+    list-style:none ;
+}
+*{
+   /* border: 2px solid black;*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100vw;
+    height:80vw ;
+    overflow-x: none;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navcontainer{
+    width: 100vw;
+    background-color: rgb(67, 67, 111);
+    min-height: 80px; 
+    display: flex;
+    align-items: center;
+    
+}
+#navlogo{
+    font-size: 2.8rem;
+    margin-left: 10px;
+    color: white;
+
+}
+#navlists{
+    width: 100vw;
+  /*  padding: 10px;*/
+    margin-right: 10;
+    list-style:none ;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content:space-between;
+}
+.info{
+    margin-right: 20px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footerbox{
+    background-color: rgb(87, 87, 118);
+    color: azure;
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+
+
+}
+.footerbox p{
+    color: azure;
+    font-size:2rem ;
+
+}
+.contentbox{
+    width: 50%;
+ /*   margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;*/
+    margin: auto;
+    display: flex;
+    background: azure;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+  /*  border-radius: 20px;*
+    border: solid 2px black;*/
+    box-shadow: 0px 0px 30px black;
+}
+.item{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 50px;
+}
+.rightbox img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+.rightbox img:hover{
+    transform: scale(1.1);
+}
+leftbox{
+    display: flex;
+    flex-direction: columnf ;
+    gap: 20px;
+}
+leftbox h2{
+    font-size: 2rem;
+}
+.ingtbox{
+    font-size: 1.3rem;
+}
+recbox{
+    font-size: 1.3rem;
+}
+
+
+

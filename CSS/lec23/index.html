@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>animation ka gyan</title>
+    <style>
+        *{
+            margin: 0;
+            margin: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: beige;
+            border: 5px solid black;
+        }
+        .box{
+            width: 300px;
+            height: 100px;
+            background-color: blueviolet;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 10px;
+           /* padding: 10px;*/
+           position: relative;
+           animation-name:rightmovement ;
+           animation-duration: 5s;
+           animation-iteration-count: 2;
+           animation-delay: 2s;
+        }
+        @keyframes rightmovement{
+            from{
+                top: 0;
+                left: 0;
+
+            }
+            to{
+                top: 0;
+                left: 1200px;
+            }
+             
+        }
+        #circle{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            border: 5px solid black;
+            border-radius: 50px;
+            margin: 10px;
+            position: relative;
+            top: 50%;
+            left: 675px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div id="circle"></div>
+    </div>
+    
+</body>
+</html>
